@@ -55,6 +55,36 @@
         // Sorry! Please try again later!
         ServerFull = 20,
 
+        InternalPlayerMissing = 100,
+
+        InternalNonceFailure = 101,
+
+        InternalConnectionToken = 102,
+
+        PlatformLock = 103,
+
+        LobbyInactivity = 104,
+
+        MatchmakerInactivity = 105,
+
+        InvalidGameOptions = 106,
+
+        NoServersAvailable = 107,
+
+        QuickmatchDisabled = 108,
+
+        TooManyGames = 109,
+
+        QuickchatLock = 110,
+
+        MatchmakerFull = 111,
+
+        Sanctions = 112,
+
+        ServerError = 113,
+
+        SelfPlatformLock = 114,
+
         FocusLostBackground = 207,
 
         // You may not join another game for another { BanMinutesLeft } minutes after intentionally disconnecting.
@@ -64,5 +94,9 @@
         FocusLost = 209,
 
         NewConnection = 210,
+
+        PlatformParentalControlsBlock = 211,
+
+        PlatformUserBlock = 212,
     }
 }

@@ -8,5 +8,7 @@ namespace Impostor.Api.Innersloth
         Skeld = 1,
         MiraHQ = 2,
         Polus = 4,
+        Dleks = 8,
+        Airship = 16,
     }
 }
